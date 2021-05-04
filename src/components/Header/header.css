@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+  line-height: 100%;
+  grid-area: h;
+
+}
+
+.name {
+  margin: 10px 0 0 10px;
+  justify-content: left;
+  font-size: 30px;
+}
+
+.people {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.planets {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.starships {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.header button{
+  justify-content: right;
+  font-size: 20px;
+  background-color: #00bc8c;
+  margin: 0 10px;
+}
